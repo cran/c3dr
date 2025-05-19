@@ -1,0 +1,39 @@
+PKG_CXXFLAGS = -I.
+
+##include files manually
+C3DRSOURCES = \
+    ./ezc3d/Analogs.cpp \
+    ./ezc3d/AnalogsInfo.cpp \
+    ./ezc3d/AnalogsSubframe.cpp \
+    ./ezc3d/Channel.cpp \
+    ./ezc3d/Data.cpp \
+    ./ezc3d/DataStartInfo.cpp \
+    ./ezc3d/ezc3d.cpp \
+    ./ezc3d/Frame.cpp \
+    ./ezc3d/Group.cpp \
+    ./ezc3d/Header.cpp \
+    ./ezc3d/Parameter.cpp \
+    ./ezc3d/Parameters.cpp \
+    ./ezc3d/Point.cpp \
+    ./ezc3d/Points.cpp \
+    ./ezc3d/PointsInfo.cpp \
+    ./ezc3d/Rotation.cpp \
+    ./ezc3d/Rotations.cpp \
+    ./ezc3d/RotationsInfo.cpp \
+    ./ezc3d/RotationsSubframe.cpp \
+    ./ezc3d/math/Matrix.cpp \
+    ./ezc3d/math/Matrix33.cpp \
+    ./ezc3d/math/Matrix44.cpp \
+    ./ezc3d/math/Matrix66.cpp \
+    ./ezc3d/math/Vector3d.cpp \
+    ./ezc3d/math/Vector6d.cpp \
+    ./ezc3d/modules/ForcePlatforms.cpp
+
+WRAPSOURCES = \
+        read.cpp \
+        write.cpp
+
+PKGSOURCES = RcppExports.cpp
+
+SOURCES = $(WRAPSOURCES) $(PKGSOURCES) $(C3DRSOURCES)
+OBJECTS = $(SOURCES:.cpp=.o)
