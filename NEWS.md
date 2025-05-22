@@ -1,7 +1,19 @@
+c3dr 0.1.5 (2025-05-21)
+===========================
+
+### BUG FIXES
+
+  * Fix compilation error for gcc15
+
+
 c3dr 0.1.4 (2025-05-15)
 ===========================
 
-* Minor fixes for the CRAN submission
+First CRAN release.
+
+### MINOR IMPROVEMENTS
+
+  * Minor fixes for the CRAN submission
 
 c3dr 0.1.1 (2025-04-24)
 ========================
