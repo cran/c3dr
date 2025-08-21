@@ -1,10 +1,9 @@
 ## -----------------------------------------------------------------------------
 #| eval: false
-# install.packages("c3dr", repos = "https://ropensci.r-universe.dev")
+# install.packages("c3dr")
 # 
-# # Alternative:
-# # if (!require(remotes)) install.packages("remotes")
-# # remotes::install_github("ropensci/c3dr")
+# # Alternative for the development version:
+# # install.packages("c3dr", repos = "https://ropensci.r-universe.dev")
 
 
 ## -----------------------------------------------------------------------------
