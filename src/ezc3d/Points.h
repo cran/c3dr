@@ -10,6 +10,7 @@
 
 #include "ezc3d/Point.h"
 #include <cstdint>
+#include <fstream>
 
 ///
 /// \brief Points holder for C3D data 3D points data

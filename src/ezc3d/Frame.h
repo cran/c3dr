@@ -11,6 +11,7 @@
 #include "ezc3d/Analogs.h"
 #include "ezc3d/Points.h"
 #include "ezc3d/Rotations.h"
+#include <fstream>
 
 ///
 /// \brief Frame holder for C3D data

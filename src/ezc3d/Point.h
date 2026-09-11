@@ -9,6 +9,7 @@
 ///
 
 #include "ezc3d/math/Vector3d.h"
+#include <fstream>
 
 ///
 /// \brief 3D point data

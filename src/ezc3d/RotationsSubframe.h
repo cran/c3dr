@@ -10,6 +10,7 @@
 
 #include "ezc3d/Rotation.h"
 #include <cstdint>
+#include <fstream>
 
 ///
 /// \brief Subframe for the rotation data

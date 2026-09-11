@@ -1,3 +1,14 @@
+c3dr 0.2.1 (2026-09-11)
+===========================
+
+### DOCUMENTATION FIXES
+
+  * Updated citation information to point to the published JOSS paper
+
+### BUG FIXES
+
+  * Fix clang23 failure on CRAN
+
 c3dr 0.2.0 (2025-08-21)
 ===========================
 

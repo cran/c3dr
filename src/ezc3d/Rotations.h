@@ -9,6 +9,7 @@
 ///
 
 #include "ezc3d/RotationsSubframe.h"
+#include <fstream>
 
 ///
 /// \brief Rotation holder for C3D Rotations data

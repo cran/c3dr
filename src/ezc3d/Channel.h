@@ -9,6 +9,7 @@
 ///
 
 #include "ezc3d/ezc3dNamespace.h"
+#include <fstream>
 
 ///
 /// \brief Channel of an analogous data

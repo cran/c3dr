@@ -11,6 +11,7 @@
 #include "ezc3d/Channel.h"
 #include <vector>
 #include <cstdint>
+#include <fstream>
 
 ///
 /// \brief Subframe for the analogous data

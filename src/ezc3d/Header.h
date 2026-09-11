@@ -10,6 +10,7 @@
 
 #include "ezc3d/ezc3dNamespace.h"
 #include <vector>
+#include <fstream>
 
 ///
 /// \brief Header of a C3D file

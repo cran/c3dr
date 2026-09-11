@@ -9,6 +9,7 @@
 ///
 
 #include "ezc3d/Frame.h"
+#include <fstream>
 
 ///
 /// \brief Data of the C3D file

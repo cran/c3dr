@@ -9,6 +9,7 @@
 ///
 
 #include "ezc3d/math/Matrix44.h"
+#include <fstream>
 
 ///
 /// \brief 3D rotation data

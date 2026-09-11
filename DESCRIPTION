@@ -1,6 +1,6 @@
 Package: c3dr
 Title: Read and Write C3D Motion Capture Files
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Simon", "Nolte", , "s.nolte@dshs-koeln.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-1643-1860")),
@@ -16,7 +16,6 @@ Authors@R: c(
 Description: A wrapper for the 'EZC3D' library to work with C3D motion capture data.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.2
 URL: https://github.com/ropensci/c3dr, https://docs.ropensci.org/c3dr/
 BugReports: https://github.com/ropensci/c3dr/issues
 LinkingTo: Rcpp
@@ -24,8 +23,9 @@ Imports: Rcpp
 Suggests: testthat (>= 3.0.0), quarto
 Config/testthat/edition: 3
 VignetteBuilder: quarto
+Config/roxygen2/version: 8.0.0
 NeedsCompilation: yes
-Packaged: 2025-08-21 10:04:12 UTC; Simon
+Packaged: 2026-09-11 10:55:38 UTC; RH7765
 Author: Simon Nolte [aut, cre] (ORCID: <https://orcid.org/0000-0003-1643-1860>),
   Benjamin Michaud [cph] (Author of included EZC3D library),
   German Sport University Cologne [fnd] (ROR:
@@ -36,4 +36,4 @@ Author: Simon Nolte [aut, cre] (ORCID: <https://orcid.org/0000-0003-1643-1860>),
     <https://github.com/ropensci/software-review/issues/686>)
 Maintainer: Simon Nolte <s.nolte@dshs-koeln.de>
 Repository: CRAN
-Date/Publication: 2025-08-21 10:20:07 UTC
+Date/Publication: 2026-09-11 11:40:11 UTC
